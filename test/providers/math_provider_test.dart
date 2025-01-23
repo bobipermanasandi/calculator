@@ -1,8 +1,8 @@
 import 'package:calculator_app/providers/math_provider.dart';
 import 'package:calculator_app/services/math_expression.dart';
 import 'package:calculator_app/static/evaluate_formula_state.dart';
+import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:test/test.dart';
 
 class MockMathExpression extends Mock implements MathExpression {}
 

@@ -26,6 +26,7 @@ class ResultText extends StatelessWidget {
         return switch (text.isNotEmpty) {
           true => Text(
               text,
+              key: const ValueKey("result"),
               textAlign: TextAlign.center,
               style: textStyle,
             ),
